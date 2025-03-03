@@ -1,6 +1,6 @@
-# Old to Gold Example Files
+# OldToGold Example Files
 
-This directory contains example files that demonstrate the expected format for each data source that the Old to Gold idea extraction tool can process.
+This directory contains example files that demonstrate the expected format for each data source that the OldToGold idea extraction tool can process.
 
 ## Directory Structure
 

@@ -1,4 +1,4 @@
-# Old to Gold: Startup Idea Miner
+# OldToGold: Startup Idea Miner
 
 Extract potential startup ideas from your iMessage chats, Apple Notes, and Skype conversations using local LLM processing.
 
@@ -7,7 +7,7 @@ Extract potential startup ideas from your iMessage chats, Apple Notes, and Skype
 ![Palmer Luckey's tweet about mining old messages for ideas](/public/palmer-tweet.png)
 *Inspired by [this conversation on X/Twitter](https://x.com/PalmerLuckey/status/1896037835452662069) where Palmer Luckey discussed finding startup ideas in old chat logs.*
 
-Old to Gold is a tool that helps you discover potential startup ideas hidden in your everyday conversations and notes. It uses a local LLM (Language Model) to analyze your iMessage chats, Apple Notes, and Skype conversations, identifying concepts that could be developed into business opportunities.
+OldToGold is a tool that helps you discover potential startup ideas hidden in your everyday conversations and notes. It uses a local LLM (Language Model) to analyze your iMessage chats, Apple Notes, and Skype conversations, identifying concepts that could be developed into business opportunities.
 
 ## Features
 
@@ -117,6 +117,7 @@ This is the recommended way to export your Apple Notes for free! The app is priv
    - The extraction process saves progress after each file
    - If interrupted, running again will resume from the last unprocessed file
    - You can safely stop and restart the process at any time
+   - **Note:** For large chat histories, the process can take several dozen seconds per file. It's recommended to run extractions overnight or during periods when you don't need your computer for other intensive tasks.
 
 2. **View results**:
    ```bash
@@ -161,7 +162,7 @@ For more details about the example files, see the [examples/README.md](examples/
 
 ## Application Architecture
 
-Old to Gold is built with Next.js 15+, using a combination of server and client components:
+OldToGold is built with Next.js 15+, using a combination of server and client components:
 
 ### Server Components
 Server components handle data fetching and processing, running on the server and sending HTML to the client.

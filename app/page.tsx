@@ -34,12 +34,12 @@ export default function Home() {
       <div className="flex items-center gap-4 mb-8">
         <Image 
           src="/logo.webp" 
-          alt="Old to Gold Logo" 
+          alt="OldToGold Logo" 
           width={60} 
           height={60} 
           className="rounded-md"
         />
-        <h1 className="text-4xl font-bold">Old to Gold: Startup Idea Miner</h1>
+        <h1 className="text-4xl font-bold">OldToGold: Startup Idea Miner</h1>
       </div>
       
       {loading ? (
