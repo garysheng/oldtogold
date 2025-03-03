@@ -1,0 +1,190 @@
+{
+  "userId": "8:live:example_user",
+  "exportDate": "2023-03-15T12:00",
+  "conversations": [
+    {
+      "id": "8:bob_example",
+      "displayName": "Bob Example",
+      "version": 1678892400000,
+      "properties": {
+        "conversationblocked": false,
+        "lastimreceivedtime": "2023-03-15T12:00:00.00Z",
+        "consumptionhorizon": "1678892400000;1678892400000;12345678901234567890",
+        "conversationstatus": "Accepted"
+      },
+      "threadProperties": null,
+      "MessageList": [
+        {
+          "id": "1678892400000",
+          "displayName": "Bob Example",
+          "originalarrivaltime": "2023-03-15T12:00:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678892400000,
+          "content": "Hi there! I have some ideas for our Old to Gold project.",
+          "conversationid": "8:bob_example",
+          "from": "8:bob_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678892460000",
+          "displayName": null,
+          "originalarrivaltime": "2023-03-15T12:01:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678892460000,
+          "content": "Great, what are you thinking?",
+          "conversationid": "8:bob_example",
+          "from": "8:live:example_user",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678892520000",
+          "displayName": "Bob Example",
+          "originalarrivaltime": "2023-03-15T12:02:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678892520000,
+          "content": "We should add support for Skype conversations in the idea extraction tool.",
+          "conversationid": "8:bob_example",
+          "from": "8:bob_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678892580000",
+          "displayName": null,
+          "originalarrivaltime": "2023-03-15T12:03:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678892580000,
+          "content": "That's a great idea! We already support iMessage and Apple Notes, so adding Skype would be a nice addition.",
+          "conversationid": "8:bob_example",
+          "from": "8:live:example_user",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678892640000",
+          "displayName": "Bob Example",
+          "originalarrivaltime": "2023-03-15T12:04:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678892640000,
+          "content": "Exactly. We can create a parser for the Skype JSON export format and integrate it with the existing extraction pipeline.",
+          "conversationid": "8:bob_example",
+          "from": "8:bob_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678892700000",
+          "displayName": null,
+          "originalarrivaltime": "2023-03-15T12:05:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678892700000,
+          "content": "Let's also make sure we handle different message types properly, like calls and system messages.",
+          "conversationid": "8:bob_example",
+          "from": "8:live:example_user",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678892760000",
+          "displayName": "Bob Example",
+          "originalarrivaltime": "2023-03-15T12:06:00.00Z",
+          "messagetype": "Event/Call",
+          "version": 1678892760000,
+          "content": "<partlist type=\"started\" alt=\"\" callId=\"12345678-abcd-1234-abcd-1234567890ab\"><part identity=\"bob_example\"><n>Bob Example</n></part><part identity=\"live:example_user\"><n>Example User</n></part></partlist>",
+          "conversationid": "8:bob_example",
+          "from": "8:bob_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678893060000",
+          "displayName": "Bob Example",
+          "originalarrivaltime": "2023-03-15T12:11:00.00Z",
+          "messagetype": "Event/Call",
+          "version": 1678893060000,
+          "content": "<partlist type=\"ended\" alt=\"\" callId=\"12345678-abcd-1234-abcd-1234567890ab\"><part identity=\"bob_example\"><n>Bob Example</n><duration>300.000</duration></part><part identity=\"live:example_user\"><n>Example User</n><duration>300.000</duration></part></partlist>",
+          "conversationid": "8:bob_example",
+          "from": "8:bob_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678893120000",
+          "displayName": "Bob Example",
+          "originalarrivaltime": "2023-03-15T12:12:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678893120000,
+          "content": "Great call! Let's start working on this feature right away.",
+          "conversationid": "8:bob_example",
+          "from": "8:bob_example",
+          "properties": null,
+          "amsreferences": null
+        }
+      ]
+    },
+    {
+      "id": "8:alice_example",
+      "displayName": "Alice Example",
+      "version": 1678896000000,
+      "properties": {
+        "conversationblocked": false,
+        "lastimreceivedtime": "2023-03-15T13:00:00.00Z",
+        "consumptionhorizon": "1678896000000;1678896000000;09876543210987654321",
+        "conversationstatus": "Accepted"
+      },
+      "threadProperties": null,
+      "MessageList": [
+        {
+          "id": "1678896000000",
+          "displayName": "Alice Example",
+          "originalarrivaltime": "2023-03-15T13:00:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678896000000,
+          "content": "Hey, I heard you're working on adding Skype support to Old to Gold.",
+          "conversationid": "8:alice_example",
+          "from": "8:alice_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678896060000",
+          "displayName": null,
+          "originalarrivaltime": "2023-03-15T13:01:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678896060000,
+          "content": "Yes! Bob and I were just discussing it. It's our next feature.",
+          "conversationid": "8:alice_example",
+          "from": "8:live:example_user",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678896120000",
+          "displayName": "Alice Example",
+          "originalarrivaltime": "2023-03-15T13:02:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678896120000,
+          "content": "Cool! I have an idea for another feature we could add after that - Telegram support!",
+          "conversationid": "8:alice_example",
+          "from": "8:alice_example",
+          "properties": null,
+          "amsreferences": null
+        },
+        {
+          "id": "1678896180000",
+          "displayName": null,
+          "originalarrivaltime": "2023-03-15T13:03:00.00Z",
+          "messagetype": "RichText",
+          "version": 1678896180000,
+          "content": "That's a fantastic idea. We can keep expanding to cover more communication platforms.",
+          "conversationid": "8:alice_example",
+          "from": "8:live:example_user",
+          "properties": null,
+          "amsreferences": null
+        }
+      ]
+    }
+  ]
+} 

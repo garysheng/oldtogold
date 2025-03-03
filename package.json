@@ -6,22 +6,50 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "extract": "tsx scripts/extract.ts",
+    "extract:all": "tsx scripts/extract.ts --iMessageDir=\"./data/imessage\" --appleNotesDir=\"./data/notes\" --skypeDir=\"./data/skype\" --outputFile=\"./data/ideas.json\" --model=\"deepseek-r1\"",
+    "extract:skype": "tsx scripts/extract.ts --iMessageDir=\"\" --appleNotesDir=\"\" --skypeDir=\"./data/skype\" --outputFile=\"./data/ideas.json\" --model=\"deepseek-r1\"",
+    "extract:imessage": "tsx scripts/extract.ts --iMessageDir=\"./data/imessage\" --appleNotesDir=\"\" --skypeDir=\"\" --outputFile=\"./data/ideas.json\" --model=\"deepseek-r1\"",
+    "extract:notes": "tsx scripts/extract.ts --iMessageDir=\"\" --appleNotesDir=\"./data/notes\" --skypeDir=\"\" --outputFile=\"./data/ideas.json\" --model=\"deepseek-r1\"",
+    "extract:examples": "tsx scripts/extract.ts --iMessageDir=\"./examples/imessage\" --appleNotesDir=\"./examples/notes\" --skypeDir=\"./examples/skype\" --outputFile=\"./examples/ideas.json\" --model=\"deepseek-r1\"",
+    "validate": "tsx scripts/validate.ts",
+    "validate:ideas": "tsx scripts/validate.ts --ideasFile=\"./data/ideas.json\"",
+    "deduplicate": "tsx scripts/deduplicate.ts",
+    "deduplicate:ideas": "tsx scripts/deduplicate.ts --ideasFile=\"./data/ideas.json\""
   },
   "dependencies": {
+    "@langchain/community": "^0.3.33",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.8.1",
+    "better-sqlite3": "^11.8.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "html-parser": "^0.11.0",
+    "jsdom": "^26.0.0",
+    "langchain": "^0.3.19",
+    "lucide-react": "^0.477.0",
+    "marked": "^15.0.7",
+    "next": "15.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.0"
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.2.0",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "tsx": "^4.19.3",
+    "typescript": "^5"
   }
 }

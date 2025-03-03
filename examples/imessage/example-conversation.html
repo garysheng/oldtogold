@@ -1,0 +1,176 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"><style>
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+	margin: 0px;
+}
+
+xmp {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	white-space: pre-wrap;
+	margin: 0px;
+}
+
+svg {
+	width: 100vw;
+	max-width: 100%;
+	height: auto;
+}
+
+a[href^="#"] {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.message {
+	margin: 1%;
+	overflow-wrap: break-word;
+}
+
+.message .sent,
+.message .received {
+	border-radius: 25px;
+	padding: 15px;
+	max-width: 60%;
+	width: fit-content;
+}
+
+.message .sent {
+	background-color: #65c466
+}
+
+
+.message .sent.iMessage,
+.message .sent.Satellite {
+	background-color: #1982FC;
+}
+
+.message .received {
+	background-color: #e5e5ea;
+}
+
+.message .received.read {
+	color: black;
+}
+
+.message .received.unread {
+	color: white;
+}
+
+.message .header {
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+.message .seperator {
+	border-bottom: 1px solid gray;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+
+.timestamp {
+	color: gray;
+	font-size: small;
+	margin: 1%;
+}
+
+.message .contents {
+	margin-top: 1%;
+}
+
+.message .contents img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.attachment {
+	margin: 1%;
+}
+
+#searchbox {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 5px;
+	z-index: 1000;
+}
+
+#searchbox input {
+	margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+<div class="conversation">
+	<div class="message">
+		<div class="header">
+			<h2>Example Project Discussion</h2>
+			<p>2 participants</p>
+		</div>
+		<div class="seperator"></div>
+	</div>
+	<div class="message">
+		<div class="received">
+			<div class="sender">Alice</div>
+			<div class="contents">
+				<p>Hey, do you have any ideas for our new coding project?</p>
+			</div>
+		</div>
+		<div class="timestamp">March 1, 2023 at 10:15 AM</div>
+	</div>
+	<div class="message">
+		<div class="sent iMessage">
+			<div class="contents">
+				<p>I was thinking we could build a tool that extracts ideas from conversations and notes</p>
+			</div>
+		</div>
+		<div class="timestamp">March 1, 2023 at 10:17 AM</div>
+	</div>
+	<div class="message">
+		<div class="received">
+			<div class="sender">Alice</div>
+			<div class="contents">
+				<p>That sounds interesting! What technology stack are you thinking?</p>
+			</div>
+		</div>
+		<div class="timestamp">March 1, 2023 at 10:20 AM</div>
+	</div>
+	<div class="message">
+		<div class="sent iMessage">
+			<div class="contents">
+				<p>Maybe Next.js with TypeScript and we could use an LLM to process the content</p>
+			</div>
+		</div>
+		<div class="timestamp">March 1, 2023 at 10:22 AM</div>
+	</div>
+	<div class="message">
+		<div class="received">
+			<div class="sender">Alice</div>
+			<div class="contents">
+				<p>Great idea! We could call it "Old to Gold" since we're turning old conversations into valuable insights</p>
+			</div>
+		</div>
+		<div class="timestamp">March 1, 2023 at 10:25 AM</div>
+	</div>
+	<div class="message">
+		<div class="sent iMessage">
+			<div class="contents">
+				<p>I love that name! Let's start planning the architecture this week</p>
+			</div>
+		</div>
+		<div class="timestamp">March 1, 2023 at 10:30 AM</div>
+	</div>
+</div>
+</body>
+</html> 

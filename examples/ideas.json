@@ -1,0 +1,102 @@
+{
+  "ideas": [
+    {
+      "id": "c67221ed-63e5-43c6-a611-b95af3f12b06",
+      "title": "Insightful Conversations",
+      "description": "An AI-powered tool that extracts, analyzes, and organizes insights from conversations for businesses and individuals to understand trends and key points efficiently.",
+      "problem": "The need for an efficient way to identify and organize key insights from large volumes of unstructured conversation data without manual analysis.",
+      "targetAudience": "Businesses looking to improve customer interaction analysis, startups focusing on AI/ML applications, and individuals seeking to gain actionable insights from conversations.",
+      "confidenceScore": 8,
+      "reasoning": "Highly relevant problem with potential for a unique solution using advanced NLP techniques.",
+      "sourceFile": "/Users/garysheng1/Code/oldtogold/examples/notes/2023-03-15-Project Ideas.md",
+      "sourceType": "AppleNote",
+      "timestamp": "2025-03-03T06:22:08.389Z",
+      "context": "# Project Ideas\n\nHere are some project ideas I've been thinking about:\n\n1. Create a tool for extracting insights from conversations\n   - Process iMessage, Skype, and other chat data\n   - Use LLMs to identify key ideas and concepts\n   - Organize by topic and relevance\n\n2. Build a habit tracking app with social accountability\n   - Connect with friends for accountability\n   - Gamify habit building with streak tracking\n   - Provide insights on habit formation patterns\n\n3. Personal knowledge manageme...",
+      "tags": [],
+      "createdAt": "2025-03-03T06:22:34.354Z",
+      "updatedAt": "2025-03-03T06:22:34.354Z"
+    },
+    {
+      "id": "9c2292b8-a346-4f18-8b92-322e09c21ec5",
+      "title": "Habitify",
+      "description": "A gamified habit tracking app that connects users with friends, providing accountability and insights into habit formation patterns to motivate sustainable behavior.",
+      "problem": "The lack of effective tools to track and encourage positive daily habits in a way that is engaging and motivating for users.",
+      "targetAudience": "Fitness enthusiasts, productivity advocates, and anyone aiming to form and maintain healthy routines.",
+      "confidenceScore": 7,
+      "reasoning": "Appeals to a broad audience with the added benefit of social accountability, which can enhance user engagement.",
+      "sourceFile": "/Users/garysheng1/Code/oldtogold/examples/notes/2023-03-15-Project Ideas.md",
+      "sourceType": "AppleNote",
+      "timestamp": "2025-03-03T06:22:08.389Z",
+      "context": "# Project Ideas\n\nHere are some project ideas I've been thinking about:\n\n1. Create a tool for extracting insights from conversations\n   - Process iMessage, Skype, and other chat data\n   - Use LLMs to identify key ideas and concepts\n   - Organize by topic and relevance\n\n2. Build a habit tracking app with social accountability\n   - Connect with friends for accountability\n   - Gamify habit building with streak tracking\n   - Provide insights on habit formation patterns\n\n3. Personal knowledge manageme...",
+      "tags": [],
+      "createdAt": "2025-03-03T06:22:34.354Z",
+      "updatedAt": "2025-03-03T06:22:34.354Z"
+    },
+    {
+      "id": "1715ecae-046b-4441-8e8b-2f7a8be27522",
+      "title": "CognitiveNotes",
+      "description": "A personal knowledge management system that automatically tags and organizes notes, linking related concepts across various data sources for seamless information retrieval and understanding.",
+      "problem": "The challenge of managing and retrieving large amounts of diverse information in a structured manner to enhance learning and productivity.",
+      "targetAudience": "Educators, students, professionals seeking improved knowledge retention, and anyone looking to organize complex information efficiently.",
+      "confidenceScore": 8,
+      "reasoning": "Solves a common pain point with potential for innovation through advanced AI integration and visualization techniques.",
+      "sourceFile": "/Users/garysheng1/Code/oldtogold/examples/notes/2023-03-15-Project Ideas.md",
+      "sourceType": "AppleNote",
+      "timestamp": "2025-03-03T06:22:08.389Z",
+      "context": "# Project Ideas\n\nHere are some project ideas I've been thinking about:\n\n1. Create a tool for extracting insights from conversations\n   - Process iMessage, Skype, and other chat data\n   - Use LLMs to identify key ideas and concepts\n   - Organize by topic and relevance\n\n2. Build a habit tracking app with social accountability\n   - Connect with friends for accountability\n   - Gamify habit building with streak tracking\n   - Provide insights on habit formation patterns\n\n3. Personal knowledge manageme...",
+      "tags": [],
+      "createdAt": "2025-03-03T06:22:34.354Z",
+      "updatedAt": "2025-03-03T06:22:34.354Z"
+    },
+    {
+      "id": "d59249c9-9035-40d5-846b-6c71187d29b7",
+      "title": "VolunteerLink",
+      "description": "A community-based matching platform that connects volunteers with opportunities based on their skills, providing impact metrics and recognition to motivate contributions in the public good.",
+      "problem": "The inefficiency of matching volunteers to meaningful projects due to lack of effective platforms or accurate skill assessments.",
+      "targetAudience": "Non-profit organizations seeking volunteers, community leaders, and individuals passionate about contributing to society.",
+      "confidenceScore": 7,
+      "reasoning": "Addresses a critical need in the social sector with potential for significant impact through effective matching systems.",
+      "sourceFile": "/Users/garysheng1/Code/oldtogold/examples/notes/2023-03-15-Project Ideas.md",
+      "sourceType": "AppleNote",
+      "timestamp": "2025-03-03T06:22:08.389Z",
+      "context": "# Project Ideas\n\nHere are some project ideas I've been thinking about:\n\n1. Create a tool for extracting insights from conversations\n   - Process iMessage, Skype, and other chat data\n   - Use LLMs to identify key ideas and concepts\n   - Organize by topic and relevance\n\n2. Build a habit tracking app with social accountability\n   - Connect with friends for accountability\n   - Gamify habit building with streak tracking\n   - Provide insights on habit formation patterns\n\n3. Personal knowledge manageme...",
+      "tags": [],
+      "createdAt": "2025-03-03T06:22:34.354Z",
+      "updatedAt": "2025-03-03T06:22:34.354Z"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ed5a52c2-9657-418d-a43e-229c3b96acc6",
+      "type": "iMessage",
+      "path": "/Users/garysheng1/Code/oldtogold/examples/imessage/example-conversation.html",
+      "filename": "example-conversation.html",
+      "processed": false,
+      "ideasExtracted": 0,
+      "createdAt": "2025-03-03T06:22:08.379Z",
+      "updatedAt": "2025-03-03T06:22:08.379Z"
+    },
+    {
+      "id": "09a63b3b-73f1-44fe-949d-8f06314e7179",
+      "type": "AppleNote",
+      "path": "/Users/garysheng1/Code/oldtogold/examples/notes/2023-03-15-Project Ideas.md",
+      "filename": "2023-03-15-Project Ideas.md",
+      "processed": true,
+      "ideasExtracted": 4,
+      "createdAt": "2025-03-03T06:22:08.379Z",
+      "updatedAt": "2025-03-03T06:22:34.354Z",
+      "processedAt": "2025-03-03T06:22:34.354Z"
+    },
+    {
+      "id": "8be458cf-1866-42d5-8596-d8a983c56205",
+      "type": "Skype",
+      "path": "/Users/garysheng1/Code/oldtogold/examples/skype/example-messages.json",
+      "filename": "example-messages.json",
+      "processed": true,
+      "ideasExtracted": 0,
+      "createdAt": "2025-03-03T06:22:08.379Z",
+      "updatedAt": "2025-03-03T06:22:51.500Z",
+      "processedAt": "2025-03-03T06:22:51.500Z"
+    }
+  ]
+}
