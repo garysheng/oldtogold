@@ -5,6 +5,7 @@ Extract potential startup ideas from your iMessage chats, Apple Notes, and Skype
 ## Overview
 
 ![Palmer Luckey's tweet about mining old messages for ideas](/public/palmer-tweet.png)
+*Inspired by [this conversation on X/Twitter](https://x.com/PalmerLuckey/status/1896037835452662069) where Palmer Luckey discussed finding startup ideas in old chat logs.*
 
 Old to Gold is a tool that helps you discover potential startup ideas hidden in your everyday conversations and notes. It uses a local LLM (Language Model) to analyze your iMessage chats, Apple Notes, and Skype conversations, identifying concepts that could be developed into business opportunities.
 
