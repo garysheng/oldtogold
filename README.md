@@ -121,6 +121,8 @@ This is the recommended way to export your Apple Notes for free! The app is priv
    ```
    Open [http://localhost:3000](http://localhost:3000) in your browser
 
+![Dashboard screenshot showing extracted ideas interface](/public/dashboard-screenshot.png)
+
 ## Examples
 
 The project includes an `examples` directory with sample files that demonstrate the expected format for each supported data source:
@@ -149,6 +151,10 @@ After running the extraction process with example files, the `examples/ideas.jso
 - Tags and timestamps
 
 For more details about the example files, see the [examples/README.md](examples/README.md) file.
+
+4. Results are saved incrementally to a JSON file and displayed in the web interface
+
+![Command line output showing extraction process](/public/command-line-screenshot.png)
 
 ## Application Architecture
 
